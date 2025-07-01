@@ -1,0 +1,42 @@
+﻿@model GimnasioApp.Application.DTOs.ClaseDTO
+
+@{
+    ViewData["Title"] = "Detalles de Clase";
+}
+
+<h1>Detalles de Clase</h1>
+
+<div>
+    <h4>Clase</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CapacidadMaxima)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CapacidadMaxima)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Horario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Horario)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a> |
+    <a asp-action="Index">Volver a la lista</a>
+</div>

@@ -1,0 +1,63 @@
+# Compiled binaries
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.obj
+*.user
+*.suo
+*.tmp
+*.log
+*.vs/
+bin/
+obj/
+node_modules/
+
+# Rider
+.idea/
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Test Results
+TestResults/
+
+# npm / yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other common build products
+build/
+dist/
+*.zip
+*.rar
+*.tar.gz
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# User secrets (if using .NET user secrets)
+# This path might vary depending on your OS and project setup
+# If you use User Secrets for local development, it's typically outside the project folder.
+# For connection strings, consider storing them securely or using User Secrets locally.
+# If you explicitly have a `appsettings.Development.json` or `appsettings.json`
+# with sensitive data that should NOT be pushed, you might add:
+# appsettings.Development.json
+# appsettings.json
+# but be careful, as this might break deployment if not handled correctly.
+# For database connection strings, the best practice is to use environment variables or
+# a secret management service in production, and User Secrets for development.
+
+# Exclude the project files themselves in case of copy/paste
+# For example, if you see a .Web.csproj.user, you might explicitly ignore it
+*.csproj.user
+*.vcproj.user
+*.sln.docstates
