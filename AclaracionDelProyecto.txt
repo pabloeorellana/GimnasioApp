@@ -1,0 +1,8 @@
+Este proyecto es una aplicación web ASP.NET Core que gestiona socios y clases para un gimnasio.
+Implementa buenas prácticas de arquitectura solicitadas en la consigna como el patrón Repositorio, DTOs y AutoMapper para el mapeo de objetos.
+* Debido al entorno de desarrollo utilizado (Visual Studio 2022 for Mac) el proyecto actual esta desarrollado bajo .NET 7.0. (VS2022 For Mac no soporta versiones mas recientes)*
+
+Las dependencias NuGet utilizadas son:
+Microsoft.EntityFrameworkCore.SqlServer Ver. 7.0.20
+Microsoft.EntityFrameworkCore.Tools Ver. 7.0.20
+AutoMapper.Extensions.Microsoft.DependencyInjection Ver. 12.0.1
